@@ -243,6 +243,10 @@ form{
     gap: 10px;
 }
 
+#enviar:hover{
+    background-color: yellow;
+}
+
 .contato-input-container label{
     font-size: x-large;
 }
