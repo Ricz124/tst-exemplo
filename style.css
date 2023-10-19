@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(10, 10, 10);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.logo{
+    margin-left: 50px;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+    gap: 20px;
+}
+
+.menu ul li a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(15, 15, 15);
+}
+
+.menu ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+.banner{
+    background-image: url(img/pexels-andrea-piacquadio-3760060.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: 120rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    align-items: end;
+}
+
+.banner h1{
+    padding: 20px;
+    width: 500px;
+}
+
+.heroi-1{
+    display: flex;
+    justify-content: center;
+}
+
+.heroi-1-container{
+    width: 80%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+    gap: 20px;
+}
+
+.heroi-1-texto{
+    max-width: 700px;
+}
+
+.heroi-1-botao button{
+    background-color: rgb(0, 0, 0);
+    padding: 20px 50px 20px 50px;
+    border: 5px solid yellow;
+    border-radius: 15px;
+    color: yellow;
+    font-weight: bolder;
+}
+
+.heroi-1-botao button:hover{
+    color: black;
+    background-color: yellow;
+}
+
+.canais{
+    display: flex;
+    justify-content: center;
+}
+
+.canais-container{
+    width: 80%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+    gap: 20px;
+}
+
+.canais-ex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.app-ads{
+    background-color: rgb(15, 15, 15);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.app-ads img{
+    width: 150px;
+}
+
+.planos{
+    display: flex;
+    justify-content: center;
+}
+
+.planos-container{
+    width: 90%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    margin: 30px;
+    gap: 30px;
+}
+
+.planos-opt{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.plano{
+    width: 300px;
+    padding: 20px;
+    border: 5px solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.plano-preco{
+    color: yellow;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.plano-assinar button{
+    background-color: rgb(0, 0, 0);
+    padding: 20px 50px 20px 50px;
+    border: 5px solid yellow;
+    border-radius: 15px;
+    color: yellow;
+    font-weight: bolder;
+}
+
+.plano-assinar button:hover{
+    color: black;
+    background-color: yellow;
+}
+
+.contato{
+    display: flex;
+    justify-content: center;
+}
+
+.contato-container{
+    width: 80%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+    gap: 20px;
+}
+
+.contato-texto{
+    max-width: 500px;
+}
+
+.contato-input-container{
+    background-color: rgb(10, 10, 10);
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form{
+    max-width: 700px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contato-input-container label{
+    font-size: x-large;
+}
+
+.contato-input-container input{
+    padding: 10px 40px 10px 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.rodape{
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.secao ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 800px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    nav .logo{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    nav .menu-mobile{
+        display: flex;
+        justify-content: center;
+    }
+
+    nav .menu-mobile ul{
+        list-style: none;
+    }
+
+    nav .menu-mobile ul li{
+        text-align: center;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav .menu-mobile ul li a{
+        text-decoration: none;
+        padding: 10px;
+        color: white;
+        background-color: rgb(10, 10, 10);
+        border-radius: 10px;
+    }
+
+    nav .menu ul{
+        display: none;
+    }
+}
